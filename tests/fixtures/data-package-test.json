@@ -1,0 +1,19 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "Data Package",
+    "description": "Data Package is a simple specification for data access and delivery.",
+    "type": "object",
+    "required": [
+        "resources"
+    ],
+    "properties": {
+        "profile": {
+            "description": "The profile of this descriptor.",
+            "type": "string"
+        },
+        "name": {
+            "description": "An identifier string. Lower case characters, with `.`, `_`, `-` and `/` are allowed.",
+            "type": "string"
+        }
+    }
+}
