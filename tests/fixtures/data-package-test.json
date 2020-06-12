@@ -12,7 +12,7 @@
             "type": "string"
         },
         "name": {
-            "description": "An identifier string. Lower case characters, with `.`, `_`, `-` and `/` are allowed.",
+            "description": "An identifier string. Lower case characters with `.`, `_`, `-` and `/` are allowed.",
             "type": "string"
         }
     }

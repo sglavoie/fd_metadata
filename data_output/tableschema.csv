@@ -1,5 +1,0 @@
-field,type,description
-fields,array,An `array` of Table Schema Field objects.
-primaryKey,array,"A primary key is a field name or an array of field names, whose values `MUST` uniquely identify each row in the table."
-foreignKeys,array,"A primary key is a field name or an array of field names, whose values `MUST` uniquely identify each row in the table."
-missingValues,array,"Values that when encountered in the source, should be considered as `null`, 'not present', or 'blank' values."

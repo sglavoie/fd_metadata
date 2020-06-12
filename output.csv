@@ -1,0 +1,33 @@
+object,field,type,description
+Package,profile,string,The profile of this descriptor.
+Package,name,string,"An identifier string. Lower case characters with `.`, `_`, `-` and `/` are allowed."
+Package,id,string,A property reserved for globally unique identifiers. Examples of identifiers that are unique include UUIDs and DOIs.
+Package,title,string,A human-readable title.
+Package,description,string,A text description. Markdown is encouraged.
+Package,homepage,string,The home on the web that is related to this data package.
+Package,created,string,The datetime on which this descriptor was created.
+Package,contributors,array,The contributors to this descriptor.
+Package,keywords,array,A list of keywords that describe this package.
+Package,image,string,A image to represent this package.
+Package,licenses,array,The license(s) under which this package is published.
+Package,resources,array,"An `array` of Data Resource objects, each compliant with the [Data Resource](/data-resource/) specification."
+Package,sources,array,The raw sources for this resource.
+Resource,profile,string,The profile of this descriptor.
+Resource,name,string,"An identifier string. Lower case characters with `.`, `_`, `-` and `/` are allowed."
+Resource,path,string,"A reference to the data for this resource, as either a path as a string, or an array of paths as strings. of valid URIs."
+Resource,data,string,Inline data for this resource.
+Resource,schema,object,A schema for this resource.
+Resource,title,string,A human-readable title.
+Resource,description,string,A text description. Markdown is encouraged.
+Resource,homepage,string,The home on the web that is related to this data package.
+Resource,sources,array,The raw sources for this resource.
+Resource,licenses,array,The license(s) under which the resource is published.
+Resource,format,string,The file format of this resource.
+Resource,mediatype,string,The media type of this resource. Can be any valid media type listed with [IANA](https://www.iana.org/assignments/media-types/media-types.xhtml).
+Resource,encoding,string,The file encoding of this resource.
+Resource,bytes,integer,The size of this resource in bytes.
+Resource,hash,string,The MD5 hash of this resource. Indicate other hashing algorithms with the {algorithm}:{hash} format.
+Table Schema,fields,array,An `array` of Table Schema Field objects.
+Table Schema,primaryKey,array,"A primary key is a field name or an array of field names, whose values `MUST` uniquely identify each row in the table."
+Table Schema,foreignKeys,array,"A primary key is a field name or an array of field names, whose values `MUST` uniquely identify each row in the table."
+Table Schema,missingValues,array,"Values that when encountered in the source, should be considered as `null`, 'not present', or 'blank' values."
